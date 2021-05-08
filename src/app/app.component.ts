@@ -13,7 +13,7 @@ import { forkJoin } from 'rxjs';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
-  title: string;
+
   employees: Employee[] = [];
   positions: Position[] = [];
   selectedEmployee: Employee = null;

@@ -1,0 +1,19 @@
+<ul class="employees">
+  <li
+    *ngFor="let employee of employees"
+    [class.selected]="employee === selectedEmployee"
+    (click)="onSelect(employee)"
+  >
+    <div class="employee-item">
+      <div>
+        <div class="employee-name">{{ employee.fullName }}</div>
+        <div class="employee-position">{{ employee.positionName }}</div>
+      </div>
+      <div class="icon-container">
+        <mat-icon (click)="onDelete(employee.employeeId)"
+          >delete</mat-icon
+        >
+      </div>
+    </div>
+  </li>
+</ul>

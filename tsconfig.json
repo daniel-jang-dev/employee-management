@@ -20,6 +20,7 @@
       "@data/*": ["data/*"],
       "@service/*": ["service/*"],
       "@forms/*": ["forms/*"],
+      "@module/*": ["module/*"],
     }
   },
   "angularCompilerOptions": {
