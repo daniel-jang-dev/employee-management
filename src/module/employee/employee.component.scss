@@ -1,0 +1,30 @@
+.container {
+  padding-top: 2em;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+.title-container {
+  display: flex;
+  justify-content: center;
+}
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1em;
+  button {
+    width: 10em;
+  }
+}
+.flex-wrapper {
+  display: flex;
+}
+.employee-detail {
+  border: 1em solid #eee;
+  width: calc(100% - 20em);
+  padding: 2em 3em;
+  .mat-form-field {
+    width: 100%;
+    margin-bottom: 1.8em;
+  }
+}
