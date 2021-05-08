@@ -1,0 +1,87 @@
+.container {
+  padding-top: 2em;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+.title-container {
+  display: flex;
+  justify-content: center;
+}
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1em;
+  button {
+    width: 10em;
+  }
+}
+.flex-wrapper {
+  display: flex;
+}
+.employees {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+  width: 20em;
+  li {
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: #aaa;
+    margin: 0.5em;
+    &:first-child {
+      margin-top: 0;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+    padding: 0.3em 0;
+    height: 4.5em;
+    &:hover {
+      color: #444;
+      background-color: #ccc;
+      left: 0.1em;
+    }
+    &.selected {
+      background-color: #eee;
+      margin-right: 0;
+      .icon-container {
+        mat-icon {
+          right: 1.3em;
+        }
+      }
+    }
+  }
+  .employee-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1em;
+    .employee-name {
+      font-size: 1.3em;
+      font-weight: 500;
+      margin-top: 0.4em;
+      margin-bottom: 0.6em;
+    }
+    .employee-position {
+      color: #444;
+    }
+    .icon-container {
+      mat-icon {
+        position: absolute;
+        right: 1em;
+        top: 1.2em;
+      }
+    }
+  }
+}
+.employee-detail {
+  border: 1em solid #eee;
+  width: calc(100% - 20em);
+  padding: 2em 3em;
+  .mat-form-field {
+    width: 100%;
+    margin-bottom: 1.8em;
+  }
+}
