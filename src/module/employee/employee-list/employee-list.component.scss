@@ -55,3 +55,43 @@
     }
   }
 }
+
+@media (max-width: 767.98px) {
+
+  .employees {
+    width: 100%;
+    li {
+      margin-left: 0;
+      width: 100%;
+      &.selected .icon-container mat-icon {
+        right: 1em;
+      }
+    }
+    margin-bottom: 1em;
+  }
+}
+
+@media (max-width: 575.98px) {
+
+  .employees {
+    li {
+      height: 3.2em;
+      &:hover {
+        left: 0;
+      }
+    }
+    .employee-item {
+      .employee-name {
+        font-size: 1.1em;
+        margin-bottom: 0.3em;
+      }
+      .employee-position {
+        font-size: .9em;
+      }
+      .icon-container mat-icon {
+        top: .8em;
+      }
+    }
+  }
+
+}
