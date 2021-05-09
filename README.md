@@ -1,6 +1,29 @@
-# Employee Management
+# Employee Management Application
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
+
+## Responsive Design
+
+#### Desktop(1440)
+<img src="https://user-images.githubusercontent.com/15355357/117558384-ee7a6800-b04a-11eb-9341-5ca287ce1393.png" width="700" alt="Desktop(1440)">
+
+#### Tablet(768)
+<img src="https://user-images.githubusercontent.com/15355357/117558387-f1755880-b04a-11eb-953e-411c83ff1ebf.png" width="500" alt="Tablet(768)">
+
+#### Mobile(375)
+<img src="https://user-images.githubusercontent.com/15355357/117558389-f33f1c00-b04a-11eb-95a5-03bbe56d22cd.png" width="300" alt="Mobile(375)">
+
+## Features
+- Responsive Design with Sass and media query
+- Create / Update / Delete Employee functionalities with mock data
+- Router / router-outlet
+- Angular Material / Material Icons
+- Service using rxjs
+- Module for scalability and reusability
+- Communication between parent and child component with Input / Output
+- Reusable forms with validation
+- Interface for Employee, Position
+- Define "paths" in tsconfig.json to import files easily in another file
 
 ## Development server
 
